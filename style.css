@@ -11,7 +11,6 @@ body {
   color: #333;
 }
 
-/* Navbar */
 nav {
   display: flex;
   justify-content: space-between;
@@ -47,17 +46,17 @@ nav .logo {
   color: #ffddc1;
 }
 
-/* Section scroll offset fix */
+
 section {
-  scroll-margin-top: 100px; /* offset for sticky nav */
+  scroll-margin-top: 100px; 
 }
 
-/* Header */
+
 header {
   text-align: center;
   padding: 4rem 2rem;
   background-color: #efebe9;
-  margin-top: 4rem; /* ✅ spacing below navbar */
+  margin-top: 4rem; 
 }
 
 header h1 {
@@ -70,11 +69,11 @@ header p {
   color: #6b4f4f;
 }
 
-/* Menu Section */
+
 .menu {
   padding: 2.5rem 2rem;
   max-width: 1200px;
-  margin: 0rem auto 0 auto; /* Reduced top space */
+  margin: 0rem auto 0 auto; 
 }
 
 
@@ -87,7 +86,7 @@ header p {
 
 .menu-items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* ✅ 4 items responsive */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
   gap: 1.5rem;
 }
 
@@ -131,7 +130,7 @@ header p {
   color: #6b4f4f;
 }
 
-/* Contact Section */
+
 .contact {
   padding: 3rem 2rem;
   text-align: center;
@@ -150,7 +149,7 @@ header p {
   color: #444;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 1rem;
